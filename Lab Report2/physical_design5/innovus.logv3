@@ -1,0 +1,276 @@
+[10/17 16:17:43      0s] 
+[10/17 16:17:43      0s] Cadence Innovus(TM) Implementation System.
+[10/17 16:17:43      0s] Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+[10/17 16:17:43      0s] 
+[10/17 16:17:43      0s] Version:	v16.26-s040_1, built Wed Mar 14 00:26:06 PDT 2018
+[10/17 16:17:43      0s] Options:	-execute setLimitedAccessFeature legacy_fects 1 -execute win -init /cad/cadence/digital_ic_design/innovus/etc/innovus/enc.tcl 
+[10/17 16:17:43      0s] Date:		Sun Oct 17 16:17:43 2021
+[10/17 16:17:43      0s] Host:		hertz1 (x86_64 w/Linux 4.9.0-4-amd64) (1core*30cpus*Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz 30720KB)
+[10/17 16:17:43      0s] OS:		Unsupported OS as /etc does not have release info
+[10/17 16:17:43      0s] 
+[10/17 16:17:43      0s] License:
+[10/17 16:17:43      0s] 		invs	Innovus Implementation System	16.2	checkout succeeded
+[10/17 16:17:43      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[10/17 16:17:55      9s] @(#)CDS: Innovus v16.26-s040_1 (64bit) 03/14/2018 00:26 (Linux 2.6.18-194.el5)
+[10/17 16:17:55      9s] @(#)CDS: NanoRoute 16.26-s040_1 NR180308-1140/16_26-UB (database version 2.30, 407.6.1) {superthreading v1.38}
+[10/17 16:17:55      9s] @(#)CDS: AAE 16.26-s002 (64bit) 03/13/2018 (Linux 2.6.18-194.el5)
+[10/17 16:17:55      9s] @(#)CDS: CTE 16.26-s006_1 () Mar  9 2018 05:39:25 ( )
+[10/17 16:17:55      9s] @(#)CDS: SYNTECH 16.26-s001_1 () Nov 17 2017 01:20:44 ( )
+[10/17 16:17:55      9s] @(#)CDS: CPE v16.26-s009
+[10/17 16:17:55      9s] @(#)CDS: IQRC/TQRC 16.1.1-s195 (64bit) Sun May 28 18:14:25 PDT 2017 (Linux 2.6.18-194.el5)
+[10/17 16:17:55      9s] @(#)CDS: OA 22.50-p051 Thu Aug  4 00:05:16 2016
+[10/17 16:17:55      9s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[10/17 16:17:55      9s] @(#)CDS: RCDB 11.8
+[10/17 16:17:55      9s] --- Running on hertz1 (x86_64 w/Linux 4.9.0-4-amd64) (1core*30cpus*Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz 30720KB) ---
+[10/17 16:17:55      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_4245_hertz1_jvl212384_KXfPGA.
+
+[10/17 16:17:55     10s] Sourcing startup file /cad/cadence/digital_ic_design/innovus/etc/innovus/enc.tcl
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_0 -color green -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_1 -color darkblue -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_2 -color slateblue -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_3 -color turquoise -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_4 -color lightgray -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_5 -color wheat -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_6 -color goldenrod -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_7 -color yellow -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_8 -color sandybrown -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_9 -color coral -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_10 -color red -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_11 -color tomato -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_12 -color firebrick -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_13 -color purple -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_14 -color violet -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:55     10s] <CMD> setLayerPreference rve_15 -color tan -isVisible 1 -isSelectable 1 -lineWidth 5 -stipple none
+[10/17 16:17:56     10s] <CMD> ::getVersion
+[10/17 16:17:56     10s] 
+[10/17 16:17:56     10s] **INFO:  MMMC transition support version v31-84 
+[10/17 16:17:56     10s] 
+[10/17 16:17:56     10s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[10/17 16:17:56     10s] <CMD> suppressMessage ENCEXT-2799
+[10/17 16:17:57     10s] <CMD> getDrawView
+[10/17 16:17:57     10s] <CMD> loadWorkspace -name Physical
+[10/17 16:17:57     10s] Executing cmd 'win' ...
+[10/17 16:17:57     10s] <CMD> win
+[10/17 16:17:58     10s] Sourcing file "/cad/cadence/digital_ic_design/innovus/etc/innovus/enc.tcl" ...
+[10/17 16:18:32     12s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[10/17 16:18:32     12s] <CMD> set defHierChar /
+[10/17 16:18:32     12s] <CMD> set distributed_client_message_echo 1
+[10/17 16:18:32     12s] <CMD> set distributed_mmmc_disable_reports_auto_redirection 0
+[10/17 16:18:32     12s] <CMD> set eco_post_client_restore_command {update_timing ; write_eco_opt_db ;}
+[10/17 16:18:32     12s] <CMD> set init_design_settop 0
+[10/17 16:18:32     12s] <CMD> set init_gnd_net VSS
+[10/17 16:18:32     12s] <CMD> set init_lef_file ../../jvy197519/LEF_file/trial_gcd.lef
+[10/17 16:18:32     12s] <CMD> set init_mmmc_file mod5_counter.view
+[10/17 16:18:32     12s] <CMD> set init_oa_search_lib {}
+[10/17 16:18:32     12s] <CMD> set init_pwr_net VDD
+[10/17 16:18:32     12s] <CMD> set init_verilog ../mod5_counter5/typical/counter_netlist.v
+[10/17 16:18:32     12s] <CMD> set latch_time_borrow_mode max_borrow
+[10/17 16:18:32     12s] <CMD> set pegDefaultResScaleFactor 1
+[10/17 16:18:32     12s] <CMD> set pegDetailResScaleFactor 1
+[10/17 16:18:32     12s] <CMD> set report_inactive_arcs_format {from to when arc_type sense reason}
+[10/17 16:18:32     12s] <CMD> set tso_post_client_restore_command {update_timing ; write_eco_opt_db ;}
+[10/17 16:18:33     12s] <CMD> init_design
+[10/17 16:18:33     12s] #- Begin Load MMMC data ... (date=10/17 16:18:33, mem=509.6M)
+[10/17 16:18:33     12s] #- End Load MMMC data ... (date=10/17 16:18:33, total cpu=0:00:00.0, real=0:00:00.0, peak res=61.5M, current mem=509.6M)
+[10/17 16:18:33     12s] 
+[10/17 16:18:33     12s] Loading LEF file ../../jvy197519/LEF_file/trial_gcd.lef ...
+[10/17 16:18:33     12s] **WARN: (IMPLF-108):	There is no overlap layer defined in any LEF file
+[10/17 16:18:33     12s] so you are unable to create rectilinear partition in a hierarchical flow.
+[10/17 16:18:33     12s] Set DBUPerIGU to M2 pitch 400.
+[10/17 16:18:33     12s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTR' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[10/17 16:18:33     12s] Type 'man IMPLF-200' for more detail.
+[10/17 16:18:33     12s] 
+[10/17 16:18:33     12s] viaInitial starts at Sun Oct 17 16:18:33 2021
+viaInitial ends at Sun Oct 17 16:18:33 2021
+Loading view definition file from mod5_counter.view
+[10/17 16:18:33     12s] Reading max_timing_library timing library '/afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib' ...
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'AD42M2RA' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ICO' of cell 'AD42M2RA' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.001702)  has a duplicate definition (line '292888') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 292879)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.008867)  has a duplicate definition (line '292906') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 292897)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.001702)  has a duplicate definition (line '292924') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 292915)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.008867)  has a duplicate definition (line '292942') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 292933)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_fall vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.001702)  has a duplicate definition (line '292813') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 292804)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_fall vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.008867)  has a duplicate definition (line '292831') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 292822)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_fall vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.001702)  has a duplicate definition (line '292849') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 292840)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_fall vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.008867)  has a duplicate definition (line '292867') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 292858)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.001702)  has a duplicate definition (line '293463') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 293454)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.008867)  has a duplicate definition (line '293481') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 293472)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.001702)  has a duplicate definition (line '293499') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 293490)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.008867)  has a duplicate definition (line '293517') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 293508)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_fall vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.001702)  has a duplicate definition (line '293388') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 293379)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_fall vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.008867)  has a duplicate definition (line '293406') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 293397)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_fall vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.001702)  has a duplicate definition (line '293424') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 293415)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_fall vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.008867)  has a duplicate definition (line '293442') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 293433)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.001702)  has a duplicate definition (line '294038') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 294029)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.017974) and input_net_transition (0.008867)  has a duplicate definition (line '294056') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 294047)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.001702)  has a duplicate definition (line '294074') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 294065)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-1365):	The ccsn_last_stage output_voltage_rise vector group for total_output_net_capacitance (0.181120) and input_net_transition (0.008867)  has a duplicate definition (line '294092') on pin 'S' and cell 'AD42M2RA'. The duplicate definition will be ignored. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib, Line 294083)
+[10/17 16:18:34     13s] Message <TECHLIB-1365> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'AD42M2RA' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'AD42M4RA' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ICO' of cell 'AD42M4RA' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'AD42M4RA' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO0' of cell 'ADCSCM2R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO1' of cell 'ADCSCM2R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO0' of cell 'ADCSCM4R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO1' of cell 'ADCSCM4R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO0B' of cell 'ADCSIOM2R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO1B' of cell 'ADCSIOM2R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO0B' of cell 'ADCSIOM4R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO1B' of cell 'ADCSIOM4R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO0B' of cell 'ADCSOM2R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO1B' of cell 'ADCSOM2R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO0B' of cell 'ADCSOM4R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO1B' of cell 'ADCSOM4R' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADFCGCM2RA' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADFCGCM4RA' is not defined in the library. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:34     13s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILEP8R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILEP64R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILEP32R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILEP16R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE8R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE6R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE64R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE4R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE3R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE32R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE16R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:51     31s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTR'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib)
+[10/17 16:18:52     32s] Read 1077 cells in library 'uk65lscllmvbbr_090c125_wc' 
+[10/17 16:18:52     32s] Reading min_timing_library timing library '/afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib' ...
+[10/17 16:19:10     50s] **WARN: (TECHLIB-302):	No function defined for cell 'FILEP8R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib)
+[10/17 16:19:10     50s] **WARN: (TECHLIB-302):	No function defined for cell 'FILEP64R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib)
+[10/17 16:19:10     50s] **WARN: (TECHLIB-302):	No function defined for cell 'FILEP32R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib)
+[10/17 16:19:10     50s] **WARN: (TECHLIB-302):	No function defined for cell 'FILEP16R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib)
+[10/17 16:19:10     50s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE8R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib)
+[10/17 16:19:10     50s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE6R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib)
+[10/17 16:19:10     50s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE64R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib)
+[10/17 16:19:10     50s] **WARN: (TECHLIB-302):	No function defined for cell 'FILE4R'. The cell will only be used for analysis. (File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_110c-40_bc_ccs.lib)
+[10/17 16:19:10     50s] Message <TECHLIB-302> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[10/17 16:19:11     52s] Read 1077 cells in library 'uk65lscllmvbbr_110c-40_bc' 
+[10/17 16:19:12     52s] *** End library_loading (cpu=0.66min, real=0.65min, mem=430.9M, fe_cpu=0.87min, fe_real=1.48min, fe_mem=953.8M) ***
+[10/17 16:19:12     52s] #- Begin Load netlist data ... (date=10/17 16:19:12, mem=953.8M)
+[10/17 16:19:12     52s] *** Begin netlist parsing (mem=953.8M) ***
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4M8RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4M8RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4M4RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4M4RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4M2RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4M2RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4M1RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4M1RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3M8RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3M8RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3M6RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3M6RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3M4RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3M4RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3M2RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3M2RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3M1RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3M1RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3M0RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3M0RA' is defined in LEF but not in the timing library.
+[10/17 16:19:12     52s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[10/17 16:19:12     52s] To increase the message display limit, refer to the product command reference manual.
+[10/17 16:19:12     52s] Created 1077 new cells from 2 timing libraries.
+[10/17 16:19:12     52s] Reading netlist ...
+[10/17 16:19:12     52s] Backslashed names will retain backslash and a trailing blank character.
+[10/17 16:19:12     52s] Reading verilog netlist '../mod5_counter5/typical/counter_netlist.v'
+[10/17 16:19:12     52s] 
+[10/17 16:19:12     52s] *** Memory Usage v#1 (Current mem = 953.754M, initial mem = 176.438M) ***
+[10/17 16:19:12     52s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=953.8M) ***
+[10/17 16:19:12     52s] #- End Load netlist data ... (date=10/17 16:19:12, total cpu=0:00:00.1, real=0:00:00.0, peak res=248.4M, current mem=953.8M)
+[10/17 16:19:12     52s] Top level cell is mod5_counter.
+[10/17 16:19:13     53s] Hooked 2154 DB cells to tlib cells.
+[10/17 16:19:13     53s] Starting recursive module instantiation check.
+[10/17 16:19:13     53s] No recursion found.
+[10/17 16:19:13     53s] Building hierarchical netlist for Cell mod5_counter ...
+[10/17 16:19:13     53s] *** Netlist is unique.
+[10/17 16:19:13     53s] ** info: there are 2166 modules.
+[10/17 16:19:13     53s] ** info: there are 8 stdCell insts.
+[10/17 16:19:13     53s] 
+[10/17 16:19:13     53s] *** Memory Usage v#1 (Current mem = 1002.988M, initial mem = 176.438M) ***
+[10/17 16:19:13     53s] Set Default Net Delay as 1000 ps.
+[10/17 16:19:13     53s] Set Default Net Load as 0.5 pF. 
+[10/17 16:19:13     53s] Set Default Input Pin Transition as 0.1 ps.
+[10/17 16:19:14     53s] Extraction setup Delayed 
+[10/17 16:19:14     53s] *Info: initialize multi-corner CTS.
+[10/17 16:19:15     54s] Reading timing constraints file '../mod5_counter5/typical/counter.sdc' ...
+[10/17 16:19:15     54s] Current (total cpu=0:00:54.1, real=0:01:32, peak res=451.2M, current mem=1122.5M)
+[10/17 16:19:15     54s] INFO (CTE): Constraints read successfully.
+[10/17 16:19:15     54s] WARNING (CTE-25): Line: 9, 10 of File ../mod5_counter5/typical/counter.sdc : Skipped unsupported command: set_units
+[10/17 16:19:15     54s] 
+[10/17 16:19:15     54s] 
+[10/17 16:19:15     54s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=460.0M, current mem=1132.7M)
+[10/17 16:19:15     54s] Current (total cpu=0:00:54.3, real=0:01:32, peak res=460.0M, current mem=1132.7M)
+[10/17 16:19:15     54s] Summary for sequential cells identification: 
+[10/17 16:19:15     54s] Identified SBFF number: 276
+[10/17 16:19:15     54s] Identified MBFF number: 0
+[10/17 16:19:15     54s] Identified SB Latch number: 0
+[10/17 16:19:15     54s] Identified MB Latch number: 0
+[10/17 16:19:15     54s] Not identified SBFF number: 0
+[10/17 16:19:15     54s] Not identified MBFF number: 0
+[10/17 16:19:15     54s] Not identified SB Latch number: 0
+[10/17 16:19:15     54s] Not identified MB Latch number: 0
+[10/17 16:19:15     54s] Number of sequential cells which are not FFs: 118
+[10/17 16:19:15     54s] 
+[10/17 16:19:15     54s] Total number of combinational cells: 668
+[10/17 16:19:15     54s] Total number of sequential cells: 394
+[10/17 16:19:15     54s] Total number of tristate cells: 15
+[10/17 16:19:15     54s] Total number of level shifter cells: 0
+[10/17 16:19:15     54s] Total number of power gating cells: 0
+[10/17 16:19:15     54s] Total number of isolation cells: 0
+[10/17 16:19:15     54s] Total number of power switch cells: 0
+[10/17 16:19:15     54s] Total number of pulse generator cells: 0
+[10/17 16:19:15     54s] Total number of always on buffers: 0
+[10/17 16:19:15     54s] Total number of retention cells: 0
+[10/17 16:19:15     54s] List of usable buffers: BUFM10R BUFM12R BUFM14R BUFM16R BUFM18R BUFM22RA BUFM20R BUFM24R BUFM26RA BUFM2R BUFM3R BUFM32RA BUFM40RA BUFM48RA BUFM4R BUFM5R CKBUFM1R BUFM6R BUFM8R CKBUFM12R CKBUFM16R CKBUFM20R CKBUFM22RA CKBUFM24R CKBUFM26RA CKBUFM2R CKBUFM3R CKBUFM32R CKBUFM40R CKBUFM48R CKBUFM4R CKBUFM6R CKBUFM8R
+[10/17 16:19:15     54s] Total number of usable buffers: 33
+[10/17 16:19:15     54s] List of unusable buffers:
+[10/17 16:19:15     54s] Total number of unusable buffers: 0
+[10/17 16:19:15     54s] List of usable inverters: CKINVM1R CKINVM12R CKINVM16R CKINVM20R CKINVM22RA CKINVM24R CKINVM26RA CKINVM2R CKINVM3R CKINVM32R CKINVM40R CKINVM48R CKINVM4R CKINVM6R CKINVM8R INVM1R INVM10R INVM12R INVM14R INVM16R INVM18R INVM20R INVM22RA INVM24R INVM26RA INVM2R INVM3R INVM32R INVM40R INVM48R INVM4R INVM6R INVM5R INVM8R
+[10/17 16:19:15     54s] Total number of usable inverters: 34
+[10/17 16:19:15     54s] List of unusable inverters: REGKM2R REGKM1R REGKM4R INVM0R
+[10/17 16:19:15     54s] Total number of unusable inverters: 4
+[10/17 16:19:15     54s] List of identified usable delay cells: DEL1M1R DEL1M4R DEL2M1R DEL2M4R DEL3M1R DEL3M4R DEL4M1R DEL4M4R
+[10/17 16:19:15     54s] Total number of identified usable delay cells: 8
+[10/17 16:19:15     54s] List of identified unusable delay cells:
+[10/17 16:19:15     54s] Total number of identified unusable delay cells: 0
+[10/17 16:19:15     54s] Patterns Extraction called explicitly through PreRoutePatternsIfNeeded call 
+[10/17 16:19:15     54s] Extraction setup Started 
+[10/17 16:19:15     54s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[10/17 16:19:15     54s] Reading Capacitance Table File /afs/iitd.ac.in/service/tools/public/asiclib/umcoa/L65/process/UMK65FDKLLC00000OA_B11/RuleDecks/QRC/RCmin/qrcTechFile ...
+[10/17 16:19:15     54s] **ERROR: (IMPEXT-2715):	Syntax Error in line 3
+**ERROR: (IMPEXT-2677):	Multi-corner RC initialization is aborted because of previously-reported errors. Use the reason provided in the error message(s) to resolve this issue and use the set_analysis_view command to invoke multi-corner initialization again.
+
+[10/17 16:19:15     54s] *** Summary of all messages that are not suppressed in this session:
+[10/17 16:19:15     54s] Severity  ID               Count  Summary                                  
+[10/17 16:19:15     54s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[10/17 16:19:15     54s] WARNING   IMPLF-108            1  There is no overlap layer defined in any...
+[10/17 16:19:15     54s] ERROR     IMPEXT-2677          1  Multi-corner RC initialization is aborte...
+[10/17 16:19:15     54s] ERROR     IMPEXT-2715          1  Syntax Error in line %d                  
+[10/17 16:19:15     54s] WARNING   IMPVL-159         2154  Pin '%s' of cell '%s' is defined in LEF ...
+[10/17 16:19:15     54s] WARNING   TECHLIB-302         20  No function defined for cell '%s'. The c...
+[10/17 16:19:15     54s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[10/17 16:19:15     54s] WARNING   TECHLIB-1365        20  The %s vector group for %s has a duplica...
+[10/17 16:19:15     54s] *** Message Summary: 2216 warning(s), 2 error(s)
+[10/17 16:19:15     54s] 
+[10/17 16:23:52     76s] 
+[10/17 16:23:52     76s] *** Memory Usage v#1 (Current mem = 1133.863M, initial mem = 176.438M) ***
+[10/17 16:23:52     76s] 
+[10/17 16:23:52     76s] *** Summary of all messages that are not suppressed in this session:
+[10/17 16:23:52     76s] Severity  ID               Count  Summary                                  
+[10/17 16:23:52     76s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[10/17 16:23:52     76s] WARNING   IMPLF-108            1  There is no overlap layer defined in any...
+[10/17 16:23:52     76s] ERROR     IMPEXT-2677          1  Multi-corner RC initialization is aborte...
+[10/17 16:23:52     76s] ERROR     IMPEXT-2715          1  Syntax Error in line %d                  
+[10/17 16:23:52     76s] WARNING   IMPVL-159         2154  Pin '%s' of cell '%s' is defined in LEF ...
+[10/17 16:23:52     76s] WARNING   TECHLIB-302         20  No function defined for cell '%s'. The c...
+[10/17 16:23:52     76s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[10/17 16:23:52     76s] WARNING   TECHLIB-1365        20  The %s vector group for %s has a duplica...
+[10/17 16:23:52     76s] *** Message Summary: 2216 warning(s), 2 error(s)
+[10/17 16:23:52     76s] 
+[10/17 16:23:52     76s] --- Ending "Innovus" (totcpu=0:01:16, real=0:06:09, mem=1133.9M) ---

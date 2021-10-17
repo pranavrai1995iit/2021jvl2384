@@ -1,0 +1,60 @@
+*----------------------------------------------------------------------------------------
+*	Innovus 16.26-s040_1 (64bit) 03/14/2018 00:26 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2021-Oct-17 18:10:50 (2021-Oct-17 12:40:50 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: mod5_counter
+*
+*	Liberty Libraries used: 
+*	        worst_case: /afs/iitd.ac.in/user/j/jv/jvl212384/physical_design5/mod5_counter2.dat/libs/lib/typ/uk65lscllmvbbr_090c125_wc_ccs.lib
+*
+*	Power Domain used: 
+*		Rail:        VDD 	Voltage:        0.9 
+*
+*       Power View : worst_case
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       Temperature = 125 
+*
+*       report_power -outfile .//mod5_counter.rpt -rail_analysis_format VS
+*
+-----------------------------------------------------------------------------------------
+Cell                            Internal   Switching       Total     Leakage   Cell
+                                   Power       Power       Power       Power   Name
+--------------------------------------------------------------------------------------
+y_reg[1]                       0.0005241   2.808e-05   0.0005539   1.694e-06  DFZRM2RA
+y_reg[0]                       0.0005147   3.632e-05   0.0005525   1.412e-06  DFQM2RA
+y_reg[2]                       0.0004785   1.112e-05   0.0004914   1.868e-06  DFM2RA
+g201                            4.29e-05   2.548e-05   6.889e-05   5.098e-07  MXB2M1RA
+g200                           2.454e-05   1.036e-05   3.521e-05   3.155e-07  AOI211M2R
+g198                           2.697e-05   6.354e-06   3.357e-05   2.476e-07  AOI32M2R
+g204                           6.843e-06   7.663e-06   1.466e-05   1.552e-07  CKINVM1R
+g196                           6.963e-06   3.898e-06   1.108e-05    2.21e-07  NR2M2R
+
+---------------------------------------------------------------------------------------
+
+Total (      8 of      8  )     0.001625   0.0001293   0.001761   6.423e-06
+Total Capacitance                1.648e-14 F
+Power Density                   *** No Die Area ***
